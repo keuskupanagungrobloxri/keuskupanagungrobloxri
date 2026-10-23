@@ -1,0 +1,20 @@
+node_modules
+.next
+out
+.vercel
+*.tsbuildinfo
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.db-journal
+public/uploads/*
+!public/uploads/.gitkeep
+.env*
+*.log
+.DS_Store
+
+# Skrip sekali pakai untuk mengunduh aset (berisi path lokal)
+/compress-images.js
+/download-assets.js
+/download-commons.js
+/download-original.js
