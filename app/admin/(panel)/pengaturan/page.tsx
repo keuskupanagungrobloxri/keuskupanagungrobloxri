@@ -401,11 +401,11 @@ export default async function AdminSettingsPage() {
                   placeholder="https://instagram.com/..."
                 />
                 <Field
-                  name="facebook"
-                  label="Facebook"
+                  name="tiktok"
+                  label="TikTok"
                   type="url"
-                  defaultValue={value("facebook")}
-                  placeholder="https://facebook.com/..."
+                  defaultValue={value("tiktok")}
+                  placeholder="https://tiktok.com/@..."
                 />
                 <Field
                   name="youtube"

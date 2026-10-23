@@ -13,7 +13,7 @@ import {
   X,
 } from "lucide-react";
 import { Crest } from "./Crest";
-import { FacebookIcon, InstagramIcon, YoutubeIcon } from "./SocialIcons";
+import { InstagramIcon, TikTokIcon, YoutubeIcon } from "./SocialIcons";
 import type { SettingsMap } from "@/lib/types";
 import { cn, setting } from "@/lib/utils";
 
@@ -93,13 +93,13 @@ export function SiteHeader({ settings, isAdmin, announcement }: Props) {
                 <InstagramIcon className="h-3.5 w-3.5" />
               </a>
               <a
-                href={setting(settings, "facebook") || "#"}
+                href={setting(settings, "tiktok") || "#"}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Facebook"
+                aria-label="TikTok"
                 className="transition hover:text-gold-300"
               >
-                <FacebookIcon className="h-3.5 w-3.5" />
+                <TikTokIcon className="h-3.5 w-3.5" />
               </a>
               <a
                 href={setting(settings, "youtube") || "#"}

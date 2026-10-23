@@ -7,7 +7,7 @@ import {
   Phone,
 } from "lucide-react";
 import { Crest } from "./Crest";
-import { FacebookIcon, InstagramIcon, YoutubeIcon } from "./SocialIcons";
+import { InstagramIcon, TikTokIcon, YoutubeIcon } from "./SocialIcons";
 import type { SettingsMap } from "@/lib/types";
 import { setting } from "@/lib/utils";
 
@@ -73,7 +73,7 @@ export function SiteFooter({ settings }: { settings: SettingsMap }) {
             <div className="mt-6 flex gap-2">
               {[
                 { href: setting(settings, "instagram"), icon: InstagramIcon, label: "Instagram" },
-                { href: setting(settings, "facebook"), icon: FacebookIcon, label: "Facebook" },
+                { href: setting(settings, "tiktok"), icon: TikTokIcon, label: "TikTok" },
                 { href: setting(settings, "youtube"), icon: YoutubeIcon, label: "YouTube" },
                 { href: `mailto:${setting(settings, "email")}`, icon: Mail, label: "Email" },
               ].map(({ href, icon: Icon, label }) => (

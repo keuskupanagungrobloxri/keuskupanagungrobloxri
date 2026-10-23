@@ -6,7 +6,7 @@ import {
   MessageCircle,
   Phone,
 } from "lucide-react";
-import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/site/SocialIcons";
+import { InstagramIcon, TikTokIcon, YoutubeIcon } from "@/components/site/SocialIcons";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/site/PageHero";
 import { ContactForm } from "@/components/site/ContactForm";
@@ -57,7 +57,7 @@ export default function KontakPage() {
 
   const socials = [
     { icon: InstagramIcon, label: "Instagram", href: setting(settings, "instagram") },
-    { icon: FacebookIcon, label: "Facebook", href: setting(settings, "facebook") },
+    { icon: TikTokIcon, label: "TikTok", href: setting(settings, "tiktok") },
     { icon: YoutubeIcon, label: "YouTube", href: setting(settings, "youtube") },
   ];
 

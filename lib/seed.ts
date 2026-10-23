@@ -158,7 +158,7 @@ const settings: Record<string, string> = {
   email: "sekretariat@keuskupanroblox.org",
   office_hours: "Senin–Jumat, 08.00–16.00 WIB",
   instagram: "https://instagram.com/keuskupanroblox",
-  facebook: "https://facebook.com/keuskupanroblox",
+  tiktok: "https://tiktok.com/@keuskupanroblox",
   youtube: "https://youtube.com/@keuskupanroblox",
   footer_text:
     "Keuskupan Agung ROBLOX adalah komunitas iman Katolik yang berakar dalam tradisi Gereja universal dan hidup dalam semangat persaudaraan, pelayanan, serta misi di dunia digital.",

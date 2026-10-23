@@ -41,7 +41,7 @@ const SETTING_KEYS = [
   "email",
   "office_hours",
   "instagram",
-  "facebook",
+  "tiktok",
   "youtube",
   "footer_text",
   "mass_notes",
